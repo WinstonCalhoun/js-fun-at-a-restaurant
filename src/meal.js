@@ -53,9 +53,14 @@ return menuItem
 }
 
 //// createRecipe function
-function createRecipe (title) {
-console.log(`Delicious ${title}`);
-return `Delicious ${title}`;
+function createRecipe (title, price, type) {
+// return {
+//      title: "Eggs & Bacon",
+//      price: 10.85,
+//      type: "breakfast"
+//  };
+// console.log(`Delicious ${title}`);
+// return `Delicious ${title}`;
 }
 module.exports = {
   nameMenuItem,

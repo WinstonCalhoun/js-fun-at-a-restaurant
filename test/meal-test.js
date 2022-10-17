@@ -127,7 +127,7 @@ describe("meal.js", function() {
       assert.isFunction(createRecipe);
     });
 
-    it.skip("should return a recipe object", function() {
+    it("should return a recipe object", function() {
       var ingredients = [];
       addIngredients("eggs", ingredients);
       addIngredients("bacon", ingredients);
